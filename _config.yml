@@ -16,8 +16,7 @@ timezone: Asia/Ho_Chi_Minh
 
 title: T-13ee # the main title
 
-tagline_1: Newbie # it will display as the sub-title
-tagline_2: CTF Player
+tagline: Newbie # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
