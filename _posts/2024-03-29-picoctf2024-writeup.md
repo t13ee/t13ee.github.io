@@ -29,10 +29,10 @@ We can download the latest release of UPX from the [GitHub releases page](https:
 
 ![shell image](/img/20240329225456.png)
 
-After completing the above tasks, the job now is to reverse engineer the `out` file using [Ghidra](https://ghidra-sre.org/) or [IDA](https://hex-rays.com/ida-pro/). When analyzing the pseudocode, I discovered this line `Password correct, please see flag: 7069636f4354467b5539585f556e5034636b314e365f42316e345269 33535f65313930633366337d`
+After completing the above tasks, the job now is to reverse the `out` file using [Ghidra](https://ghidra-sre.org/) or [IDA](https://hex-rays.com/ida-pro/). When analyzing the pseudocode, I discovered this line `Password correct, please see flag: 7069636f4354467b5539585f556e5034636b314e365f42316e345269 33535f65313930633366337d`.
 
 ![ghidra image](/img/20240329232511.png)
 
 Our final task is to [convert hexadecimal to ASCII](https://www.rapidtables.com/convert/number/hex-to-ascii.html).
 
-`FLAG: picoCTF{U9X_UnP4ck1N6_B1n4Ri3S_e190c3f3}`
+`FLAG: picoCTF{U9X_UnP4ck1N6_B1n4Ri3S_e190c3f3}`.
