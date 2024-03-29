@@ -24,3 +24,7 @@ The challenge strongly hints (it's in the binary name, challenge name, and is a 
 ![shell image](/img/20240329223902.png)
 
 UPX is a free, portable, extendable, high-performance executable packer for several executable formats.
+
+We can download the latest release of UPX from the [GitHub releases page](https://github.com/upx/upx/releases). Extracting the archive gives us a folder with a `upx` binary. We can run `./<folder-name>/upx -d out` to decompress the binary and replace it on disk. Now, our `out` file is unpacked.
+
+![shell image](/img/20240329225456.png)
