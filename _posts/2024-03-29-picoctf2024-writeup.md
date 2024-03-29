@@ -8,3 +8,5 @@ img_path: "/assets/PicoCTF"
 image:
   path: logo.png
 ---
+
+# picoCTF 2024
