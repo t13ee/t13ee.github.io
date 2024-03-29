@@ -17,4 +17,4 @@ Let's get started!
 
 ## packer (100pts)
 
-![packer image picoCTF](../assets/picoCTF/img/20240329220649.png)
+![packer image picoCTF](/assets/picoCTF/img/20240329220649.png)
