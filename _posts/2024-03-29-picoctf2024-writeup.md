@@ -29,7 +29,7 @@ We can download the latest release of UPX from the [GitHub releases page](https:
 
 ![shell image](/img/20240329225456.png)
 
-After completing the above tasks, the job now is to reverse the `out` file using [Ghidra](https://ghidra-sre.org/) or [IDA](https://hex-rays.com/ida-pro/). When analyzing the pseudocode, I discovered this line `Password correct, please see flag: 7069636f4354467b5539585f556e5034636b314e365f42316e345269 33535f65313930633366337d`.
+After completing the above tasks, the job now is to reverse the `out` file using [Ghidra](https://ghidra-sre.org/) or [IDA](https://hex-rays.com/ida-pro/). When analyzing the pseudocode, I discovered this line `Password correct, please see flag: 7069636f4354467b5539585f556e5034636b314e365f42316e34526933535f65313930633366337d`.
 
 ![ghidra image](/img/20240329232511.png)
 
