@@ -18,3 +18,9 @@ Let's get started!
 ## packer (100pts)
 
 ![packer image picoCTF](/img/20240329220649.png)
+
+The challenge strongly hints (it's in the binary name, challenge name, and is a literal hint) that this is a binary packed with UPX. Additionally, running `strings out | grep upx` will display `$Info: This file is packed with the UPX executable packer http://upx.sf.net $`.
+
+![shell image](/img/20240329223902.png)
+
+UPX is a free, portable, extendable, high-performance executable packer for several executable formats.
