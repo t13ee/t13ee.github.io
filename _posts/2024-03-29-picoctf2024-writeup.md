@@ -16,3 +16,5 @@ Let's get started!
 # Reverse Engineering
 
 ## packer (100pts)
+
+![packer image picoCTF](../assets/picoCTF/img/20240329220649.png)
